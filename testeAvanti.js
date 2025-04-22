@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
     const searchButton = document.getElementById('search');
     const insertDiv = document.getElementById('insert');
-    const searchInput = document.getElementById('label'); // Get the input field
+    const searchInput = document.getElementById('label'); 
 
     if (searchButton && insertDiv && searchInput) {
         searchButton.addEventListener('click', function(event) {
-            event.preventDefault(); // Prevent default form submission
+            event.preventDefault(); 
 
-            const searchTerm = searchInput.value.trim(); // Get the search term
+            const searchTerm = searchInput.value.trim(); 
             let content = '';
 
             if (searchTerm) {

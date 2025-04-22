@@ -72,4 +72,40 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Add some specific styling if needed */
+
+.promo-section .image-container img {
+    max-height: 200px; 
+    object-fit: cover; 
+    display: block; 
+    margin: auto; 
+}
+
+
+.promo-text-container img {
+    max-height: 150px; 
+    width: auto; 
+    max-width: 100%; 
+    display: block;
+    margin: auto; 
+}
+
+.promo-text-container .promo-text-content {
+    background-color: #004d40; 
+    color: white;
+}
+
+.promo-text-container .promo-heading {
+    font-size: 1.5rem; 
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.promo-text-container .promo-discount {
+    font-size: 4rem; 
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 0;
+    color: #b2dfdb; 
+}
+
