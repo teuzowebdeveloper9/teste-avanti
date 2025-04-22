@@ -8,7 +8,7 @@ Este repositório contém minha entrega para o teste técnico solicitado pela **
 ---
 ## para facilitar a vida do avaliador
 
-para facilitar a avaliação eu fiz deploy do teste na vercel assim o avaliador não precisa rodar na maquina deve [teste na vercel](https://teste-avanti-lltf.vercel.app/)
+para facilitar a avaliação eu fiz deploy do teste na vercel assim o avaliador não precisa rodar na maquina dele [teste na vercel](https://teste-avanti-lltf.vercel.app/)
 
 
 ---
