@@ -34,4 +34,36 @@ document.addEventListener('DOMContentLoaded', function() {
             insertDiv.innerHTML = content;
         });
     }
+
+    // Product Carousel functionality
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const productsRow = document.querySelector('.products-row');
+    
+    if (prevBtn && nextBtn && productsRow) {
+        let scrollAmount = 0;
+        const cardWidth = 280; // Approximate width of each card including margins
+
+        nextBtn.addEventListener('click', () => {
+            scrollAmount += cardWidth;
+            if (scrollAmount > productsRow.scrollWidth - productsRow.clientWidth) {
+                scrollAmount = 0;
+            }
+            productsRow.scroll({
+                left: scrollAmount,
+                behavior: 'smooth'
+            });
+        });
+
+        prevBtn.addEventListener('click', () => {
+            scrollAmount -= cardWidth;
+            if (scrollAmount < 0) {
+                scrollAmount = productsRow.scrollWidth - productsRow.clientWidth;
+            }
+            productsRow.scroll({
+                left: scrollAmount,
+                behavior: 'smooth'
+            });
+        });
+    }
 });

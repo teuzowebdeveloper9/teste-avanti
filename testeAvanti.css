@@ -72,7 +72,9 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-
+.promo-section {
+    background-color: #E7E7EA; 
+}
 .promo-section .image-container img {
     max-height: 200px; 
     object-fit: cover; 
@@ -87,6 +89,7 @@ body {
     max-width: 100%; 
     display: block;
     margin: auto; 
+    
 }
 
 .promo-text-container .promo-text-content {
@@ -108,4 +111,125 @@ body {
     margin-bottom: 0;
     color: #b2dfdb; 
 }
+
+/* Products Section Styles */
+.products-section {
+    background-color: white;
+    padding: 2rem 0;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.products-carousel {
+    position: relative;
+    padding: 0 40px;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: 1px solid #dee2e6;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.carousel-control.prev {
+    left: 0;
+}
+
+.carousel-control.next {
+    right: 0;
+}
+
+.product-card {
+    background: white;
+    padding: 1rem;
+    position: relative;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.product-title {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    color: #333;
+    line-height: 1.2;
+}
+
+.price-container {
+    margin: 0.5rem 0;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 0.9rem;
+    display: block;
+}
+
+.current-price-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.25rem 0;
+}
+
+.current-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.discount-badge {
+    background-color: #e8f3ff;
+    color: #0066cc;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.installment-text {
+    color: #666;
+    font-size: 0.8rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.product-card .btn-primary {
+    background-color: #0066cc;
+    border: none;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.product-card .btn-primary:hover {
+    background-color: #0052a3;
+}
+
+/* Add some specific styling if needed */
+
 
