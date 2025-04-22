@@ -6,8 +6,33 @@ Este repositório contém minha entrega para o teste técnico solicitado pela **
 
 
 ---
+##para facilitar a vida do avaliador
 
-## ✨ Por que estou tão interessado?
+para facilitar a avaliação eu fiz deploy do teste na vercel assim o avaliador não precisa rodar na maquina deve [teste na vercel](https://teste-avanti-lltf.vercel.app/)
+
+
+---
+##screenshots
+
+![image](https://github.com/user-attachments/assets/ef62b49d-a47f-4e89-9a3b-9e8de4307674)
+
+![image](https://github.com/user-attachments/assets/7e3390f0-9c8b-4c88-8cea-b7099a996efa)
+essa parte eu criei por que achei interessante ela tem uma animação enfim, ficou bem legal(eu acho).
+
+![image](https://github.com/user-attachments/assets/c37abd5e-7691-4ad5-9304-f65144fe2800)
+
+![image](https://github.com/user-attachments/assets/ed64c630-bdfa-4d4d-8986-cd5280a51b6d)
+
+
+![image](https://github.com/user-attachments/assets/413aa184-5af5-4fbc-9822-efa7552abd2b)
+
+![image](https://github.com/user-attachments/assets/38f93a25-3f52-47b5-990a-62f1f0acd046)
+
+---
+
+
+
+##  Por que estou tão interessado?
 
 Durante minhas pesquisas sobre empresas inspiradoras na área de tecnologia e design, descobri a **Avanti**. Me chamou muito a atenção o trabalho de vocês — a estética, o cuidado com a experiência do usuário e a cultura de inovação. E foi justamente pesquisando sobre a Avanti que encontrei a oportunidade de estágio.
 
