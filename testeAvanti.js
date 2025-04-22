@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Product Carousel functionality
+    
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
     const productsRow = document.querySelector('.products-row');
@@ -61,6 +61,38 @@ document.addEventListener('DOMContentLoaded', function() {
                 scrollAmount = productsRow.scrollWidth - productsRow.clientWidth;
             }
             productsRow.scroll({
+                left: scrollAmount,
+                behavior: 'smooth'
+            });
+        });
+    }
+
+   
+    const smallPrevBtn = document.getElementById('smallPrevBtn');
+    const smallNextBtn = document.getElementById('smallNextBtn');
+    const smallProductsRow = document.querySelector('.small-products-row');
+    
+    if (smallPrevBtn && smallNextBtn && smallProductsRow) {
+        let scrollAmount = 0;
+        const cardWidth = 220; 
+
+        smallNextBtn.addEventListener('click', () => {
+            scrollAmount += cardWidth;
+            if (scrollAmount > smallProductsRow.scrollWidth - smallProductsRow.clientWidth) {
+                scrollAmount = 0;
+            }
+            smallProductsRow.scroll({
+                left: scrollAmount,
+                behavior: 'smooth'
+            });
+        });
+
+        smallPrevBtn.addEventListener('click', () => {
+            scrollAmount -= cardWidth;
+            if (scrollAmount < 0) {
+                scrollAmount = smallProductsRow.scrollWidth - smallProductsRow.clientWidth;
+            }
+            smallProductsRow.scroll({
                 left: scrollAmount,
                 behavior: 'smooth'
             });
